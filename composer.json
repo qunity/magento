@@ -30,6 +30,7 @@
             "**/Test/**"
         ],
         "files": [
+            "app/etc/DotenvLoader.php",
             "app/etc/NonComposerComponentRegistration.php"
         ],
         "psr-0": {
