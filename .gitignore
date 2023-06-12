@@ -74,3 +74,5 @@ atlassian*
 .DS_Store
 
 /.env
+/auth.json
+/packages/*/*

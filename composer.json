@@ -75,12 +75,18 @@
     "prefer-stable": true,
     "repositories": [
         {
+            "packagist.org": false
+        },
+        {
             "type": "composer",
-            "url": "https://repo.magento.com/"
+            "url": "https://repo.packagist.com/qunity/"
+        },
+        {
+            "type": "path",
+            "url" : "packages/*/*"
         }
     ],
     "extra": {
         "magento-force": "override"
     }
 }
-
