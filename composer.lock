@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8452e42432300febd58be401fde57c7f",
+    "content-hash": "7532d57aaededc454d023d04ec8b0041",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -189,16 +189,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.272.1",
+            "version": "3.273.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "a0accaf4a16565c0b4438109c978602f27dff3a0"
+                "reference": "86078abfba43fce3f71a2714bb10a6b1baec1b78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a0accaf4a16565c0b4438109c978602f27dff3a0",
-                "reference": "a0accaf4a16565c0b4438109c978602f27dff3a0",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/86078abfba43fce3f71a2714bb10a6b1baec1b78",
+                "reference": "86078abfba43fce3f71a2714bb10a6b1baec1b78",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -284,9 +284,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.272.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.273.0"
             },
-            "time": "2023-06-09T18:21:02+00:00"
+            "time": "2023-06-13T18:22:02+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -21372,16 +21372,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "3.0.19",
+            "version": "3.0.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "cc181005cf548bfd8a4896383bb825d859259f95"
+                "reference": "543a1da81111a0bfd6ae7bbc2865c5e89ed3fc67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/cc181005cf548bfd8a4896383bb825d859259f95",
-                "reference": "cc181005cf548bfd8a4896383bb825d859259f95",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/543a1da81111a0bfd6ae7bbc2865c5e89ed3fc67",
+                "reference": "543a1da81111a0bfd6ae7bbc2865c5e89ed3fc67",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -21468,7 +21468,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.19"
+                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.20"
             },
             "funding": [
                 {
@@ -21484,7 +21484,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-05T17:13:09+00:00"
+            "time": "2023-06-13T06:30:34+00:00"
         },
         {
             "name": "psr/cache",
@@ -21936,17 +21936,17 @@
             "time": "2021-05-03T11:20:27+00:00"
         },
         {
-            "name": "qunity/dotenv",
-            "version": "1.0.0",
+            "name": "qunity/component-dotenv",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:qunity/dotenv.git",
-                "reference": "c92da6e3b90a05b95a650ab8f11598cc9f082078"
+                "url": "git@github.com:qunity/component-dotenv.git",
+                "reference": "e4d64bc64d0413adbcbe299ed83059fd4d334ad2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/qunity/dotenv/zipball/c92da6e3b90a05b95a650ab8f11598cc9f082078",
-                "reference": "c92da6e3b90a05b95a650ab8f11598cc9f082078",
+                "url": "https://api.github.com/repos/qunity/component-dotenv/zipball/e4d64bc64d0413adbcbe299ed83059fd4d334ad2",
+                "reference": "e4d64bc64d0413adbcbe299ed83059fd4d334ad2",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -21971,10 +21971,10 @@
             ],
             "description": "N/A",
             "support": {
-                "source": "https://github.com/qunity/dotenv/tree/1.0.0",
-                "issues": "https://github.com/qunity/dotenv/issues"
+                "source": "https://github.com/qunity/component-dotenv/tree/1.0.1",
+                "issues": "https://github.com/qunity/component-dotenv/issues"
             },
-            "time": "2023-06-14T07:07:51+00:00"
+            "time": "2023-06-14T08:55:31+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
