@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "03f69dbc016ed2421cc068bf1344bfb6",
+    "content-hash": "8452e42432300febd58be401fde57c7f",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -21937,16 +21937,16 @@
         },
         {
             "name": "qunity/dotenv",
-            "version": "0.1.1",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:qunity/dotenv.git",
-                "reference": "4f13b3c6bddf49e5b9f41e47e3fe89b0f7f86e78"
+                "reference": "c92da6e3b90a05b95a650ab8f11598cc9f082078"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/qunity/dotenv/zipball/4f13b3c6bddf49e5b9f41e47e3fe89b0f7f86e78",
-                "reference": "4f13b3c6bddf49e5b9f41e47e3fe89b0f7f86e78",
+                "url": "https://api.github.com/repos/qunity/dotenv/zipball/c92da6e3b90a05b95a650ab8f11598cc9f082078",
+                "reference": "c92da6e3b90a05b95a650ab8f11598cc9f082078",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -21962,7 +21962,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Qunity\\Dotenv\\": "src"
+                    "Qunity\\Component\\Dotenv\\": "src"
                 }
             },
             "notification-url": "https://repo.packagist.com/qunity/downloads/",
@@ -21971,10 +21971,10 @@
             ],
             "description": "N/A",
             "support": {
-                "source": "https://github.com/qunity/dotenv/tree/0.1.1",
+                "source": "https://github.com/qunity/dotenv/tree/1.0.0",
                 "issues": "https://github.com/qunity/dotenv/issues"
             },
-            "time": "2023-06-14T06:15:47+00:00"
+            "time": "2023-06-14T07:07:51+00:00"
         },
         {
             "name": "ralouphie/getallheaders",

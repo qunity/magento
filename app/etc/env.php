@@ -8,7 +8,7 @@ use Magento\Framework\Config\ConfigOptionsListConstants as ConfigConstants;
 use Magento\Framework\Math\Random;
 use Magento\Framework\Setup\BackendFrontnameGenerator;
 use Magento\Setup\Model\CryptKeyGenerator;
-use Qunity\Dotenv\Dotenv;
+use Qunity\Component\Dotenv\Dotenv;
 
 return (static function (array $config): array {
     // @phpcs:disable Magento2.Functions, Magento2.Security
