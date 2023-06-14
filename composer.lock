@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec8615f9caf463dc5e2d6d6576d9cee9",
+    "content-hash": "03f69dbc016ed2421cc068bf1344bfb6",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -21937,16 +21937,16 @@
         },
         {
             "name": "qunity/dotenv",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:qunity/dotenv.git",
-                "reference": "ff38adf0c94ce26519028e2e4e899cf84350de4b"
+                "reference": "4f13b3c6bddf49e5b9f41e47e3fe89b0f7f86e78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/qunity/dotenv/zipball/ff38adf0c94ce26519028e2e4e899cf84350de4b",
-                "reference": "ff38adf0c94ce26519028e2e4e899cf84350de4b",
+                "url": "https://api.github.com/repos/qunity/dotenv/zipball/4f13b3c6bddf49e5b9f41e47e3fe89b0f7f86e78",
+                "reference": "4f13b3c6bddf49e5b9f41e47e3fe89b0f7f86e78",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -21971,10 +21971,10 @@
             ],
             "description": "N/A",
             "support": {
-                "source": "https://github.com/qunity/dotenv/tree/0.1.0",
+                "source": "https://github.com/qunity/dotenv/tree/0.1.1",
                 "issues": "https://github.com/qunity/dotenv/issues"
             },
-            "time": "2023-06-12T19:12:07+00:00"
+            "time": "2023-06-14T06:15:47+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
