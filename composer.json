@@ -78,7 +78,13 @@
     "replace": {
         "magento/inventory-metapackage": "*",
         "magento/module-two-factor-auth": "*",
-        "adobe-commerce/adobe-ims-metapackage": "*"
+        "adobe-commerce/adobe-ims-metapackage": "*",
+        "magento/language-de_de": "*",
+        "magento/language-es_es": "*",
+        "magento/language-fr_fr": "*",
+        "magento/language-nl_nl": "*",
+        "magento/language-pt_br": "*",
+        "magento/language-zh_hans_cn": "*"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
