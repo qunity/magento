@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "05c85cf85358b3485ae6fd1f743ab07d",
+    "content-hash": "6d4d0f0a093aeb1ae65b191b61877b52",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -5994,44 +5994,6 @@
                 "AFL-3.0"
             ],
             "description": "Magento 2 Base (Community Edition)"
-        },
-        {
-            "name": "magento/module-admin-analytics",
-            "version": "100.4.5",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-admin-analytics/magento-module-admin-analytics-100.4.5.0.zip",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/qunity/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-backend": "102.0.*",
-                "magento/module-config": "101.2.*",
-                "magento/module-release-notification": "100.4.*",
-                "magento/module-store": "101.1.*",
-                "magento/module-ui": "101.2.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\AdminAnalytics\\": ""
-                }
-            },
-            "notification-url": "https://repo.packagist.com/qunity/downloads/",
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
         },
         {
             "name": "magento/module-admin-notification",

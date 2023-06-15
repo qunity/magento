@@ -133,7 +133,8 @@
         "magento/module-paypal": "*",
         "magento/module-paypal-captcha": "*",
         "magento/module-re-captcha-paypal": "*",
-        "magento/adobe-stock-integration": "*"
+        "magento/adobe-stock-integration": "*",
+        "magento/module-admin-analytics": "*"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
