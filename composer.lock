@@ -21937,16 +21937,16 @@
         },
         {
             "name": "qunity/component-dotenv",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:qunity/component-dotenv.git",
-                "reference": "e4d64bc64d0413adbcbe299ed83059fd4d334ad2"
+                "reference": "70a2edf646624d145757cfb566f830d07f3816f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/qunity/component-dotenv/zipball/e4d64bc64d0413adbcbe299ed83059fd4d334ad2",
-                "reference": "e4d64bc64d0413adbcbe299ed83059fd4d334ad2",
+                "url": "https://api.github.com/repos/qunity/component-dotenv/zipball/70a2edf646624d145757cfb566f830d07f3816f4",
+                "reference": "70a2edf646624d145757cfb566f830d07f3816f4",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -21971,10 +21971,10 @@
             ],
             "description": "N/A",
             "support": {
-                "source": "https://github.com/qunity/component-dotenv/tree/1.0.1",
+                "source": "https://github.com/qunity/component-dotenv/tree/1.0.2",
                 "issues": "https://github.com/qunity/component-dotenv/issues"
             },
-            "time": "2023-06-14T08:55:31+00:00"
+            "time": "2023-06-15T05:40:24+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
