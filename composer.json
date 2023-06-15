@@ -124,7 +124,10 @@
         "magento/module-weee-graph-ql": "*",
         "magento/module-wishlist-graph-ql": "*",
         "magento/module-graph-ql-cache": "*",
-        "magento/module-marketplace": "*"
+        "magento/module-marketplace": "*",
+        "magento/module-dhl": "*",
+        "magento/module-fedex": "*",
+        "magento/module-ups": "*"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
