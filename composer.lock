@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "841f96bc82c8910df692ed731b3283f5",
+    "content-hash": "55abacc88e30bfae2edd63b806f05171",
     "packages": [
         {
             "name": "brick/math",
@@ -5917,43 +5917,6 @@
                 ],
                 "psr-4": {
                     "Magento\\Amqp\\": ""
-                }
-            },
-            "notification-url": "https://repo.packagist.com/qunity/downloads/",
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-analytics",
-            "version": "100.4.6",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-analytics/magento-module-analytics-100.4.6.0.zip",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/qunity/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-backend": "102.0.*",
-                "magento/module-config": "101.2.*",
-                "magento/module-integration": "100.4.*",
-                "magento/module-store": "101.1.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\Analytics\\": ""
                 }
             },
             "notification-url": "https://repo.packagist.com/qunity/downloads/",
@@ -19311,16 +19274,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.273.0",
+            "version": "3.273.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "86078abfba43fce3f71a2714bb10a6b1baec1b78"
+                "reference": "615adf6a83800936de345193b5c869f96aab1132"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/86078abfba43fce3f71a2714bb10a6b1baec1b78",
-                "reference": "86078abfba43fce3f71a2714bb10a6b1baec1b78",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/615adf6a83800936de345193b5c869f96aab1132",
+                "reference": "615adf6a83800936de345193b5c869f96aab1132",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -19406,9 +19369,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.273.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.273.1"
             },
-            "time": "2023-06-13T18:22:02+00:00"
+            "time": "2023-06-15T18:23:27+00:00"
         },
         {
             "name": "beberlei/assert",

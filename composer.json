@@ -88,6 +88,7 @@
         "magento/language-pt_br": "*",
         "magento/language-zh_hans_cn": "*",
         "magento/module-admin-analytics": "*",
+        "magento/module-analytics": "*",
         "magento/module-aws-s3": "*",
         "magento/module-aws-s3-page-builder": "*",
         "magento/module-bundle-graph-ql": "*",

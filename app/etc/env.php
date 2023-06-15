@@ -60,9 +60,7 @@ return (static function (array $config): array {
         ),
     ],
     'MAGE_MODE' => Dotenv::value('MAGE_MODE', 'default'),
-    'modules' => Dotenv::values([
-        'Magento_Analytics' => false,
-    ], [
+    'modules' => Dotenv::values([], [
         Dotenv::VARIABLE_NAME => [
             fn (string $name): string => 'MODULES_' . preg_replace('/[A-Z]/', '_$0', $name),
         ],
