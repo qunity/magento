@@ -75,6 +75,9 @@
             "Magento\\Tools\\Sanity\\": "dev/build/publication/sanity/Magento/Tools/Sanity/"
         }
     },
+    "replace": {
+        "magento/inventory-metapackage": "*"
+    },
     "minimum-stability": "stable",
     "prefer-stable": true,
     "repositories": [
