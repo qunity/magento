@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ea248fb7e8d6330ebba2fb17198c43e2",
+    "content-hash": "ee1feba192b87c8b908344ea1c434e73",
     "packages": [
         {
             "name": "astock/stock-api-libphp",
@@ -9784,40 +9784,6 @@
                 "OSL-3.0",
                 "AFL-3.0"
             ]
-        },
-        {
-            "name": "magento/module-marketplace",
-            "version": "100.4.4",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-marketplace/magento-module-marketplace-100.4.4.0.zip",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/qunity/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-backend": "102.0.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\Marketplace\\": ""
-                }
-            },
-            "notification-url": "https://repo.packagist.com/qunity/downloads/",
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
         },
         {
             "name": "magento/module-media-content",

@@ -122,7 +122,8 @@
         "magento/module-url-rewrite-graph-ql": "*",
         "magento/module-vault-graph-ql": "*",
         "magento/module-weee-graph-ql": "*",
-        "magento/module-wishlist-graph-ql": "*"
+        "magento/module-wishlist-graph-ql": "*",
+        "magento/module-marketplace": "*"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,

@@ -94,7 +94,6 @@ return [
         'Magento_LoginAsCustomerPageCache' => 1,
         'Magento_LoginAsCustomerQuote' => 1,
         'Magento_LoginAsCustomerSales' => 1,
-        'Magento_Marketplace' => 1,
         'Magento_MediaContent' => 1,
         'Magento_MediaContentApi' => 1,
         'Magento_MediaContentCatalog' => 1,
