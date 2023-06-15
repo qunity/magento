@@ -131,8 +131,6 @@ return [
         'Magento_PageBuilderAnalytics' => 1,
         'Magento_PageCache' => 1,
         'Magento_CardinalCommerce' => 1,
-        'Magento_Vault' => 1,
-        'Magento_Paypal' => 1,
         'Magento_Persistent' => 1,
         'Magento_ProductAlert' => 1,
         'Magento_ProductVideo' => 1,
@@ -149,7 +147,6 @@ return [
         'Magento_ReCaptchaFrontendUi' => 1,
         'Magento_ReCaptchaMigration' => 1,
         'Magento_ReCaptchaNewsletter' => 1,
-        'Magento_ReCaptchaPaypal' => 1,
         'Magento_ReCaptchaReview' => 1,
         'Magento_ReCaptchaSendFriend' => 1,
         'Magento_ReCaptchaStorePickup' => 1,
@@ -200,7 +197,7 @@ return [
         'Magento_AdminAdobeIms' => 1,
         'Magento_Usps' => 1,
         'Magento_GoogleAdwords' => 1,
-        'Magento_PaypalCaptcha' => 1,
+        'Magento_Vault' => 1,
         'Magento_Version' => 1,
         'Magento_Swagger' => 1,
         'Magento_WebapiAsync' => 1,
@@ -208,8 +205,6 @@ return [
         'Magento_Weee' => 1,
         'Magento_CurrencySymbol' => 1,
         'Magento_Wishlist' => 1,
-        'Magento_WishlistAnalytics' => 1,
-        'PayPal_Braintree' => 1,
-        'PayPal_BraintreeGraphQl' => 1
+        'Magento_WishlistAnalytics' => 1
     ]
 ];
