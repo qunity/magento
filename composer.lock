@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8a810e99e1fc6271bbf06346b4e8c3f9",
+    "content-hash": "841f96bc82c8910df692ed731b3283f5",
     "packages": [
         {
             "name": "brick/math",
@@ -5772,44 +5772,6 @@
             "description": "Magento 2 Base (Community Edition)"
         },
         {
-            "name": "magento/module-admin-analytics",
-            "version": "100.4.5",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-admin-analytics/magento-module-admin-analytics-100.4.5.0.zip",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/qunity/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-backend": "102.0.*",
-                "magento/module-config": "101.2.*",
-                "magento/module-release-notification": "100.4.*",
-                "magento/module-store": "101.1.*",
-                "magento/module-ui": "101.2.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\AdminAnalytics\\": ""
-                }
-            },
-            "notification-url": "https://repo.packagist.com/qunity/downloads/",
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
             "name": "magento/module-admin-notification",
             "version": "100.4.5",
             "dist": {
@@ -10100,76 +10062,6 @@
                 "proprietary"
             ],
             "description": "Page Builder module"
-        },
-        {
-            "name": "magento/module-page-builder-admin-analytics",
-            "version": "1.1.3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-page-builder-admin-analytics/magento-module-page-builder-admin-analytics-1.1.3.0.zip",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/qunity/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "suggest": {
-                "magento/module-admin-analytics": "*",
-                "magento/module-page-builder": "2.2.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\PageBuilderAdminAnalytics\\": ""
-                }
-            },
-            "notification-url": "https://repo.packagist.com/qunity/downloads/",
-            "license": [
-                "proprietary"
-            ],
-            "description": "Page Builder Admin Analytics module"
-        },
-        {
-            "name": "magento/module-page-builder-analytics",
-            "version": "1.6.3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-page-builder-analytics/magento-module-page-builder-analytics-1.6.3.0.zip",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/qunity/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-analytics": "100.4.*",
-                "magento/module-page-builder": "2.2.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\PageBuilderAnalytics\\": ""
-                }
-            },
-            "notification-url": "https://repo.packagist.com/qunity/downloads/",
-            "license": [
-                "proprietary"
-            ],
-            "description": "Page Builder Analytics module"
         },
         {
             "name": "magento/module-page-cache",

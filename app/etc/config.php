@@ -1,7 +1,6 @@
 <?php
 return [
     'modules' => [
-        'Magento_AdminAnalytics' => 1,
         'Magento_Store' => 1,
         'Magento_AdvancedPricingImportExport' => 1,
         'Magento_Directory' => 1,
@@ -63,7 +62,7 @@ return [
         'Magento_DownloadableImportExport' => 1,
         'Magento_CardinalCommerce' => 1,
         'Magento_InstantPurchase' => 1,
-        'Magento_Analytics' => 1,
+        'Magento_Analytics' => 0,
         'Magento_JwtFrameworkAdapter' => 1,
         'Magento_JwtUserToken' => 1,
         'Magento_LayeredNavigation' => 1,
@@ -111,8 +110,6 @@ return [
         'Magento_SalesRule' => 1,
         'Magento_AdvancedSearch' => 1,
         'Magento_CatalogWidget' => 1,
-        'Magento_PageBuilder' => 1,
-        'Magento_PageBuilderAnalytics' => 1,
         'Magento_PageCache' => 1,
         'Magento_CheckoutAgreements' => 1,
         'Magento_Persistent' => 1,
@@ -178,7 +175,7 @@ return [
         'Magento_WebapiAsync' => 1,
         'Magento_WebapiSecurity' => 1,
         'Magento_Weee' => 1,
-        'Magento_PageBuilderAdminAnalytics' => 1,
+        'Magento_PageBuilder' => 1,
         'Magento_Wishlist' => 1,
         'Magento_WishlistAnalytics' => 1
     ]
