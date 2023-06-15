@@ -132,7 +132,8 @@
         "paypal/module-braintree": "*",
         "magento/module-paypal": "*",
         "magento/module-paypal-captcha": "*",
-        "magento/module-re-captcha-paypal": "*"
+        "magento/module-re-captcha-paypal": "*",
+        "magento/adobe-stock-integration": "*"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
