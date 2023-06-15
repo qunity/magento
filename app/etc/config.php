@@ -147,7 +147,6 @@ return [
         'Magento_MsrpGroupedProduct' => 1,
         'Magento_Multishipping' => 1,
         'Magento_MysqlMq' => 1,
-        'Magento_NewRelicReporting' => 1,
         'Magento_Newsletter' => 1,
         'Magento_NewsletterGraphQl' => 1,
         'Magento_OfflinePayments' => 1,

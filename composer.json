@@ -84,7 +84,8 @@
         "magento/language-fr_fr": "*",
         "magento/language-nl_nl": "*",
         "magento/language-pt_br": "*",
-        "magento/language-zh_hans_cn": "*"
+        "magento/language-zh_hans_cn": "*",
+        "magento/module-new-relic-reporting": "*"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "de9e9be9c5c9b09bac17c04cc8e5a30e",
+    "content-hash": "8f746363739a32f542cd9ac526946d8a",
     "packages": [
         {
             "name": "astock/stock-api-libphp",
@@ -11779,46 +11779,6 @@
                 ],
                 "psr-4": {
                     "Magento\\MysqlMq\\": ""
-                }
-            },
-            "notification-url": "https://repo.packagist.com/qunity/downloads/",
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-new-relic-reporting",
-            "version": "100.4.4",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-new-relic-reporting/magento-module-new-relic-reporting-100.4.4.0.zip",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/qunity/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/magento-composer-installer": "*",
-                "magento/module-backend": "102.0.*",
-                "magento/module-catalog": "104.0.*",
-                "magento/module-config": "101.2.*",
-                "magento/module-configurable-product": "100.4.*",
-                "magento/module-customer": "103.0.*",
-                "magento/module-store": "101.1.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\NewRelicReporting\\": ""
                 }
             },
             "notification-url": "https://repo.packagist.com/qunity/downloads/",
