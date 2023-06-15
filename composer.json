@@ -123,6 +123,7 @@
         "magento/module-vault-graph-ql": "*",
         "magento/module-weee-graph-ql": "*",
         "magento/module-wishlist-graph-ql": "*",
+        "magento/module-graph-ql-cache": "*",
         "magento/module-marketplace": "*"
     },
     "minimum-stability": "stable",

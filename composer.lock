@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ee1feba192b87c8b908344ea1c434e73",
+    "content-hash": "ba6824b34eefd10c186d5198de3b1da5",
     "packages": [
         {
             "name": "astock/stock-api-libphp",
@@ -9016,43 +9016,6 @@
                 ],
                 "psr-4": {
                     "Magento\\GoogleOptimizer\\": ""
-                }
-            },
-            "notification-url": "https://repo.packagist.com/qunity/downloads/",
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-graph-ql-cache",
-            "version": "100.4.3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-graph-ql-cache/magento-module-graph-ql-cache-100.4.3.0.zip",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/qunity/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-authorization": "100.4.*",
-                "magento/module-graph-ql": "100.4.*",
-                "magento/module-integration": "100.4.*",
-                "magento/module-page-cache": "100.4.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\GraphQlCache\\": ""
                 }
             },
             "notification-url": "https://repo.packagist.com/qunity/downloads/",
