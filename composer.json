@@ -76,7 +76,8 @@
         }
     },
     "replace": {
-        "magento/inventory-metapackage": "*"
+        "magento/inventory-metapackage": "*",
+        "magento/module-two-factor-auth": "*"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,

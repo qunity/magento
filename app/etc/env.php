@@ -61,7 +61,6 @@ return (static function (array $config): array {
     ],
     'MAGE_MODE' => Dotenv::value('MAGE_MODE', 'default'),
     'modules' => Dotenv::values([
-        'Magento_TwoFactorAuth' => true,
         'Magento_AdminAdobeImsTwoFactorAuth' => true,
     ], [
         Dotenv::VARIABLE_NAME => [
