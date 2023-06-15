@@ -11,13 +11,15 @@
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "laminas/laminas-dependency-plugin": true,
             "magento/*": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "cweagans/composer-patches": true
         },
         "preferred-install": "dist",
         "sort-packages": true
     },
     "version": "2.4.6",
     "require": {
+        "cweagans/composer-patches": "^1.7",
         "magento/composer-dependency-version-audit-plugin": "~0.1",
         "magento/composer-root-update-plugin": "~2.0",
         "magento/product-community-edition": "2.4.6",
@@ -89,6 +91,8 @@
         }
     ],
     "extra": {
+        "enable-patching": true,
+        "composer-exit-on-patch-failure": true,
         "magento-force": "override"
     }
 }
