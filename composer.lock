@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "57a73d3d0edddd781eb0b6690af6b4b5",
+    "content-hash": "5d92e6ff034ffd23676fa70d39e88778",
     "packages": [
         {
             "name": "astock/stock-api-libphp",
@@ -19963,42 +19963,6 @@
                 "OSL-3.0"
             ],
             "description": "Temando multi-carrier shipping extension for Magento 2"
-        },
-        {
-            "name": "temando/module-shipping-remover",
-            "version": "1.0.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/temando/module-shipping-remover/temando-module-shipping-remover-1.0.0.0.zip",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/qunity/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "magento/framework": "*",
-                "magento/module-eav": "*"
-            },
-            "replace": {
-                "temando/module-shipping-m2": "*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Temando\\ShippingRemover\\": ""
-                }
-            },
-            "notification-url": "https://repo.packagist.com/qunity/downloads/",
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "Removes Temando multi-carrier shipping extension from Magento 2"
         },
         {
             "name": "tubalmartin/cssmin",

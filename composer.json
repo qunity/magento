@@ -127,7 +127,8 @@
         "magento/module-marketplace": "*",
         "magento/module-dhl": "*",
         "magento/module-fedex": "*",
-        "magento/module-ups": "*"
+        "magento/module-ups": "*",
+        "temando/module-shipping-remover": "*"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
