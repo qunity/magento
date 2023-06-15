@@ -4,32 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "36de62b1251f6a773b967b83b00f2760",
+    "content-hash": "93808fb6d8a22f6e859e40e8367ddf6a",
     "packages": [
-        {
-            "name": "adobe-commerce/adobe-ims-metapackage",
-            "version": "2.2.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/adobe-commerce/adobe-ims-metapackage/adobe-commerce-adobe-ims-metapackage-2.2.0.0.zip",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/qunity/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "magento/module-admin-adobe-ims": "100.5.0",
-                "magento/module-admin-adobe-ims-two-factor-auth": "1.0.0",
-                "magento/module-adobe-ims": "2.2.0",
-                "magento/module-adobe-ims-api": "2.2.0",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "type": "metapackage",
-            "notification-url": "https://repo.packagist.com/qunity/downloads/",
-            "description": "Adobe IMS Integration"
-        },
         {
             "name": "astock/stock-api-libphp",
             "version": "1.1.5",
@@ -6368,40 +6344,6 @@
                 "AFL-3.0"
             ],
             "description": "N/A"
-        },
-        {
-            "name": "magento/module-admin-adobe-ims-two-factor-auth",
-            "version": "1.0.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-admin-adobe-ims-two-factor-auth/magento-module-admin-adobe-ims-two-factor-auth-1.0.0.0.zip",
-                "mirrors": [
-                    {
-                        "url": "https://repo.packagist.com/qunity/dists/%package%/%version%/r%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "magento/framework": "*",
-                "magento/module-admin-adobe-ims": "100.5.*",
-                "magento/module-two-factor-auth": "*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\AdminAdobeImsTwoFactorAuth\\": ""
-                }
-            },
-            "notification-url": "https://repo.packagist.com/qunity/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "This module is used to add Admin Adobe Ims and Two Factor Auth dependency."
         },
         {
             "name": "magento/module-admin-analytics",
