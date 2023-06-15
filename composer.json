@@ -138,7 +138,9 @@
         "magento/module-analytics": "*",
         "elasticsearch/elasticsearch": "*",
         "magento/module-aws-s3": "*",
-        "magento/google-shopping-ads": "*"
+        "magento/module-aws-s3-page-builder": "*",
+        "magento/google-shopping-ads": "*",
+        "magento/module-multishipping": "*"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
