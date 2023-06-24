@@ -2,6 +2,6 @@
 
 declare(strict_types=1);
 
-use Qunity\Component\Dotenv\Dotenv;
+use Qunity\Base\Component\Dotenv;
 
 Dotenv::create()->usePutEnv(true)->loadEnv(__DIR__ . '/../../dotenv/.env');
