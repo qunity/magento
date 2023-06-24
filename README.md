@@ -1,1 +1,1 @@
-# Magento Project
+# Qunity Magento Project
