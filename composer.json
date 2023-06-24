@@ -94,7 +94,6 @@
         "magento/module-fedex": "*",
         "magento/module-marketplace": "*",
         "magento/module-multishipping": "*",
-        "magento/module-new-relic-reporting": "*",
         "magento/module-page-builder-admin-analytics": "*",
         "magento/module-page-builder-analytics": "*",
         "magento/module-paypal": "*",
@@ -130,8 +129,6 @@
         }
     ],
     "extra": {
-        "enable-patching": true,
-        "composer-exit-on-patch-failure": true,
         "magento-force": "override"
     }
 }
