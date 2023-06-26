@@ -21,7 +21,10 @@
         "magento/composer-dependency-version-audit-plugin": "~0.1",
         "magento/composer-root-update-plugin": "~2.0",
         "magento/product-community-edition": "2.4.6-p1",
-        "qunity/module-base": "^0.1"
+        "magento/pwa": "^0.5.1",
+        "magento/venia-sample-data": "^0.0.4",
+        "qunity/module-base": "^0.1",
+        "qunity/module-upward-connector": "^0.1.0"
     },
     "autoload": {
         "exclude-from-classmap": [
