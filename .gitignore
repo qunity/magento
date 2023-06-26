@@ -86,3 +86,4 @@ atlassian*
 
 /auth.json
 /packages/*/*
+/pwa/*
