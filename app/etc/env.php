@@ -12,6 +12,7 @@ use Qunity\Base\Component\Dotenv;
 
 return (static function (array $config): array {
     // @phpcs:disable Magento2.Functions, Magento2.Security
+
     $files = glob(__DIR__ . '/env.d/*.env.php');
     $config = array_reduce($files, static function (array $config, string $file): array {
         return array_replace_recursive($config, require_once $file);
