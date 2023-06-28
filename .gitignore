@@ -84,6 +84,7 @@ atlassian*
 !/dotenv/.env
 /app/etc/env.d/*.env.php
 
+/.qunity/*
 /auth.json
 /packages/*/*
 /pwa/*

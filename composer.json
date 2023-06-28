@@ -129,11 +129,16 @@
     "prefer-stable": true,
     "repositories": [
         {
-            "packagist.org": false
+            "type": "composer",
+            "url": "https://repo.magento.com/"
         },
         {
-            "type": "composer",
-            "url": "https://repo.packagist.com/qunity/"
+            "type": "vcs",
+            "url": "git@github.com:qunity/module-base.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:qunity/module-upward-connector.git"
         },
         {
             "type": "path",
