@@ -1,1 +1,1 @@
-# Qunity Magento Project
+# Qunity Magento Application
