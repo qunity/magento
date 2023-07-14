@@ -142,7 +142,7 @@
         },
         {
             "type": "path",
-            "url" : "/home/www-data/repository/*/*"
+            "url" : "/var/repository/*/*"
         }
     ],
     "extra": {
