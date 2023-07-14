@@ -129,6 +129,14 @@
     "prefer-stable": true,
     "repositories": [
         {
+            "type": "path",
+            "url" : "/var/packages/*/*",
+            "exclude": [
+                "qunity/module-base",
+                "qunity/module-upward-connector"
+            ]
+        },
+        {
             "type": "composer",
             "url": "https://repo.magento.com/"
         },
@@ -139,10 +147,6 @@
         {
             "type": "vcs",
             "url": "git@github.com:qunity/module-upward-connector.git"
-        },
-        {
-            "type": "path",
-            "url" : "/var/repository/*/*"
         }
     ],
     "extra": {
