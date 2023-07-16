@@ -130,7 +130,7 @@
     "repositories": [
         {
             "type": "path",
-            "url" : "/var/packages/*/*",
+            "url" : "packages/*/*",
             "exclude": [
                 "qunity/module-base",
                 "qunity/module-upward-connector"
