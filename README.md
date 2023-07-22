@@ -1,1 +1,1 @@
-# Qunity Magento Application
+# Qunity Magento Website
