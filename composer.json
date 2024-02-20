@@ -21,10 +21,8 @@
         "magento/composer-dependency-version-audit-plugin": "~0.1",
         "magento/composer-root-update-plugin": "~2.0",
         "magento/product-community-edition": "2.4.6-p1",
-        "magento/pwa": "^0.5.1",
         "qunity/module-base": "^0.1.0",
-        "qunity/module-online-product": "^0.1.0",
-        "qunity/module-upward-connector": "^0.1.0"
+        "qunity/module-online-product": "^0.1.0"
     },
     "autoload": {
         "exclude-from-classmap": [
@@ -134,8 +132,7 @@
             "url" : "packages/*/*",
             "exclude": [
                 "qunity/module-base",
-                "qunity/module-online-product",
-                "qunity/module-upward-connector"
+                "qunity/module-online-product"
             ]
         },
         {
@@ -149,10 +146,6 @@
         {
             "type": "vcs",
             "url": "git@github.com:qunity/module-online-product.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@github.com:qunity/module-upward-connector.git"
         }
     ],
     "extra": {
