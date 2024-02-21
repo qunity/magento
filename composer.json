@@ -11,7 +11,8 @@
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "laminas/laminas-dependency-plugin": true,
             "magento/*": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "qunity/composer-installer": true
         },
         "preferred-install": "dist",
         "sort-packages": true
@@ -41,6 +42,7 @@
         "magento/module-wishlist-sample-data": "100.4.*",
         "magento/product-community-edition": "2.4.6-p1",
         "magento/sample-data-media": "100.4.*",
+        "qunity/composer-installer": "^0.1.0",
         "qunity/module-base": "^0.1.0",
         "qunity/module-online-product": "^0.1.0"
     },
@@ -147,16 +149,12 @@
     "prefer-stable": true,
     "repositories": [
         {
-            "type": "path",
-            "url" : "packages/*/*",
-            "exclude": [
-                "qunity/module-base",
-                "qunity/module-online-product"
-            ]
-        },
-        {
             "type": "composer",
             "url": "https://repo.magento.com/"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:qunity/composer-installer.git"
         },
         {
             "type": "vcs",

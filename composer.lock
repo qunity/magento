@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "612e67ead2902af64579603542a47990",
+    "content-hash": "a4f8abeb8925c1911f88bec5000e91ba",
     "packages": [
         {
             "name": "brick/math",
@@ -15027,17 +15027,53 @@
             "time": "2021-05-03T11:20:27+00:00"
         },
         {
-            "name": "qunity/module-base",
+            "name": "qunity/composer-installer",
             "version": "0.1.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/qunity/module-base.git",
-                "reference": "59ee82290f199fd48b8e0d2f6659dcfb21141615"
+                "url": "git@github.com:qunity/composer-installer.git",
+                "reference": "82d0bae0116a025e7c1fdd9eae52d169522a0706"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/qunity/module-base/zipball/59ee82290f199fd48b8e0d2f6659dcfb21141615",
-                "reference": "59ee82290f199fd48b8e0d2f6659dcfb21141615",
+                "url": "https://api.github.com/repos/qunity/composer-installer/zipball/82d0bae0116a025e7c1fdd9eae52d169522a0706",
+                "reference": "82d0bae0116a025e7c1fdd9eae52d169522a0706",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^2.2"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Qunity\\ComposerInstaller\\InstallerPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Qunity\\ComposerInstaller\\": "src"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "N/A",
+            "support": {
+                "source": "https://github.com/qunity/composer-installer/tree/0.1.4",
+                "issues": "https://github.com/qunity/composer-installer/issues"
+            },
+            "time": "2024-02-21T09:11:30+00:00"
+        },
+        {
+            "name": "qunity/module-base",
+            "version": "0.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/qunity/module-base.git",
+                "reference": "03abf1a7d47abd3f29e11d5056f7437b95c48af8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/qunity/module-base/zipball/03abf1a7d47abd3f29e11d5056f7437b95c48af8",
+                "reference": "03abf1a7d47abd3f29e11d5056f7437b95c48af8",
                 "shasum": ""
             },
             "require": {
@@ -15045,7 +15081,10 @@
                 "php": "^8.1",
                 "symfony/dotenv": "^5.4"
             },
-            "type": "magento2-module",
+            "type": "qunity-magento2-module",
+            "extra": {
+                "magento2-module": "Qunity_Base"
+            },
             "autoload": {
                 "files": [
                     "src/registration.php"
@@ -15059,30 +15098,33 @@
             ],
             "description": "N/A",
             "support": {
-                "source": "https://github.com/qunity/module-base/tree/0.1.4",
+                "source": "https://github.com/qunity/module-base/tree/0.1.5",
                 "issues": "https://github.com/qunity/module-base/issues"
             },
-            "time": "2023-08-04T21:24:41+00:00"
+            "time": "2024-02-21T08:08:38+00:00"
         },
         {
             "name": "qunity/module-online-product",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/qunity/module-online-product.git",
-                "reference": "ba6b8fe81be291dde67a084d24033698c1277279"
+                "reference": "f162c1f748393576b11e8ad3394f7aa553dee5bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/qunity/module-online-product/zipball/ba6b8fe81be291dde67a084d24033698c1277279",
-                "reference": "ba6b8fe81be291dde67a084d24033698c1277279",
+                "url": "https://api.github.com/repos/qunity/module-online-product/zipball/f162c1f748393576b11e8ad3394f7aa553dee5bd",
+                "reference": "f162c1f748393576b11e8ad3394f7aa553dee5bd",
                 "shasum": ""
             },
             "require": {
                 "php": "^8.1",
                 "qunity/module-base": "^0.1"
             },
-            "type": "magento2-module",
+            "type": "qunity-magento2-module",
+            "extra": {
+                "magento2-module": "Qunity_OnlineProduct"
+            },
             "autoload": {
                 "files": [
                     "src/registration.php"
@@ -15096,10 +15138,10 @@
             ],
             "description": "N/A",
             "support": {
-                "source": "https://github.com/qunity/module-online-product/tree/0.1.0",
+                "source": "https://github.com/qunity/module-online-product/tree/0.1.1",
                 "issues": "https://github.com/qunity/module-online-product/issues"
             },
-            "time": "2023-08-04T21:15:09+00:00"
+            "time": "2024-02-21T08:08:37+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -18870,16 +18912,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.300.0",
+            "version": "3.300.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "67a0c22a70bdcc99ca41028b78be3d5496481c14"
+                "reference": "fb67a49453c2b1a51268156b70adeba6c619e743"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/67a0c22a70bdcc99ca41028b78be3d5496481c14",
-                "reference": "67a0c22a70bdcc99ca41028b78be3d5496481c14",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/fb67a49453c2b1a51268156b70adeba6c619e743",
+                "reference": "fb67a49453c2b1a51268156b70adeba6c619e743",
                 "shasum": ""
             },
             "require": {
@@ -18959,9 +19001,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.300.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.300.1"
             },
-            "time": "2024-02-19T19:08:33+00:00"
+            "time": "2024-02-20T19:05:00+00:00"
         },
         {
             "name": "beberlei/assert",
@@ -20843,16 +20885,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.58",
+            "version": "1.10.59",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "a23518379ec4defd9e47cbf81019526861623ec2"
+                "reference": "e607609388d3a6d418a50a49f7940e8086798281"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/a23518379ec4defd9e47cbf81019526861623ec2",
-                "reference": "a23518379ec4defd9e47cbf81019526861623ec2",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e607609388d3a6d418a50a49f7940e8086798281",
+                "reference": "e607609388d3a6d418a50a49f7940e8086798281",
                 "shasum": ""
             },
             "require": {
@@ -20901,7 +20943,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-02-12T20:02:57+00:00"
+            "time": "2024-02-20T13:59:13+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -23164,5 +23206,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.2.0"
 }
