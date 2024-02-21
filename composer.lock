@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a4f8abeb8925c1911f88bec5000e91ba",
+    "content-hash": "a8d78be93972e3ffa5fe4d07c82bb665",
     "packages": [
         {
             "name": "brick/math",
@@ -15034,12 +15034,6 @@
                 "url": "git@github.com:qunity/composer-installer.git",
                 "reference": "82d0bae0116a025e7c1fdd9eae52d169522a0706"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/qunity/composer-installer/zipball/82d0bae0116a025e7c1fdd9eae52d169522a0706",
-                "reference": "82d0bae0116a025e7c1fdd9eae52d169522a0706",
-                "shasum": ""
-            },
             "require": {
                 "composer-plugin-api": "^2.2"
             },
@@ -15056,10 +15050,6 @@
                 "proprietary"
             ],
             "description": "N/A",
-            "support": {
-                "source": "https://github.com/qunity/composer-installer/tree/0.1.4",
-                "issues": "https://github.com/qunity/composer-installer/issues"
-            },
             "time": "2024-02-21T09:11:30+00:00"
         },
         {
@@ -15067,14 +15057,8 @@
             "version": "0.1.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/qunity/module-base.git",
+                "url": "git@github.com:qunity/module-base.git",
                 "reference": "03abf1a7d47abd3f29e11d5056f7437b95c48af8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/qunity/module-base/zipball/03abf1a7d47abd3f29e11d5056f7437b95c48af8",
-                "reference": "03abf1a7d47abd3f29e11d5056f7437b95c48af8",
-                "shasum": ""
             },
             "require": {
                 "magento/framework": "^103.0",
@@ -15097,10 +15081,6 @@
                 "proprietary"
             ],
             "description": "N/A",
-            "support": {
-                "source": "https://github.com/qunity/module-base/tree/0.1.5",
-                "issues": "https://github.com/qunity/module-base/issues"
-            },
             "time": "2024-02-21T08:08:38+00:00"
         },
         {
@@ -15108,14 +15088,8 @@
             "version": "0.1.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/qunity/module-online-product.git",
+                "url": "git@github.com:qunity/module-online-product.git",
                 "reference": "f162c1f748393576b11e8ad3394f7aa553dee5bd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/qunity/module-online-product/zipball/f162c1f748393576b11e8ad3394f7aa553dee5bd",
-                "reference": "f162c1f748393576b11e8ad3394f7aa553dee5bd",
-                "shasum": ""
             },
             "require": {
                 "php": "^8.1",
@@ -15137,10 +15111,6 @@
                 "proprietary"
             ],
             "description": "N/A",
-            "support": {
-                "source": "https://github.com/qunity/module-online-product/tree/0.1.1",
-                "issues": "https://github.com/qunity/module-online-product/issues"
-            },
             "time": "2024-02-21T08:08:37+00:00"
         },
         {

@@ -147,24 +147,24 @@
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://repo.magento.com/"
-        },
-        {
-            "type": "vcs",
+    "repositories": {
+        "qunity/composer-installer": {
+            "type": "git",
             "url": "git@github.com:qunity/composer-installer.git"
         },
-        {
-            "type": "vcs",
+        "qunity/module-base": {
+            "type": "git",
             "url": "git@github.com:qunity/module-base.git"
         },
-        {
-            "type": "vcs",
+        "qunity/module-online-product": {
+            "type": "git",
             "url": "git@github.com:qunity/module-online-product.git"
+        },
+        "magento": {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
         }
-    ],
+    },
     "extra": {
         "magento-force": "override"
     }
