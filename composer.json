@@ -22,6 +22,7 @@
         "magento/composer-dependency-version-audit-plugin": "~0.1",
         "magento/composer-root-update-plugin": "~2.0",
         "magento/product-community-edition": "2.4.6-p1",
+        "qunity/component-dotenv": "^0.1.0",
         "qunity/composer-installer": "^0.1.0",
         "qunity/module-base": "^0.1.0",
         "qunity/module-online-product": "^0.1.0"
@@ -129,6 +130,10 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "repositories": {
+        "qunity/component-dotenv": {
+            "type": "git",
+            "url": "git@github.com:qunity/component-dotenv.git"
+        },
         "qunity/composer-installer": {
             "type": "git",
             "url": "git@github.com:qunity/composer-installer.git"

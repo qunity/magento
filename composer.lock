@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e9955f28865d78f939214589aaea8855",
+    "content-hash": "1c5df53ded0145bfd6cfb3acc377de0a",
     "packages": [
         {
             "name": "brick/math",
@@ -14386,15 +14386,40 @@
             "time": "2021-05-03T11:20:27+00:00"
         },
         {
+            "name": "qunity/component-dotenv",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:qunity/component-dotenv.git",
+                "reference": "6ed5c1552607b6787c09560fbd9706c2a4544706"
+            },
+            "require": {
+                "php": "^8.1",
+                "symfony/dotenv": "^5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Qunity\\Component\\Dotenv\\": "src"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "N/A",
+            "time": "2024-02-24T12:30:59+00:00"
+        },
+        {
             "name": "qunity/composer-installer",
-            "version": "0.1.9",
+            "version": "0.1.11",
             "source": {
                 "type": "git",
                 "url": "git@github.com:qunity/composer-installer.git",
-                "reference": "de42fca7bdcb78ffab5bbcef0e8d22ba4ccb7864"
+                "reference": "dde2e3504cd79d12a20c3622a9a334eb06a7e7ca"
             },
             "require": {
-                "composer-plugin-api": "^2.2"
+                "composer-plugin-api": "^2.2",
+                "qunity/component-dotenv": "^0.1"
             },
             "type": "composer-plugin",
             "extra": {
@@ -14409,7 +14434,7 @@
                 "proprietary"
             ],
             "description": "N/A",
-            "time": "2024-02-23T18:24:27+00:00"
+            "time": "2024-02-24T14:24:16+00:00"
         },
         {
             "name": "qunity/module-base",
