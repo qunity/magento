@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1c5df53ded0145bfd6cfb3acc377de0a",
+    "content-hash": "b95a7e253ca4e061596b75c557885d3e",
     "packages": [
         {
             "name": "brick/math",
@@ -14410,46 +14410,19 @@
             "time": "2024-02-24T12:30:59+00:00"
         },
         {
-            "name": "qunity/composer-installer",
-            "version": "0.1.11",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:qunity/composer-installer.git",
-                "reference": "dde2e3504cd79d12a20c3622a9a334eb06a7e7ca"
-            },
-            "require": {
-                "composer-plugin-api": "^2.2",
-                "qunity/component-dotenv": "^0.1"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "Qunity\\ComposerInstaller\\InstallerPlugin"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Qunity\\ComposerInstaller\\": "src"
-                }
-            },
-            "license": [
-                "proprietary"
-            ],
-            "description": "N/A",
-            "time": "2024-02-24T14:24:16+00:00"
-        },
-        {
             "name": "qunity/module-base",
-            "version": "0.1.7",
+            "version": "0.1.9",
             "source": {
                 "type": "git",
                 "url": "git@github.com:qunity/module-base.git",
-                "reference": "d45e8b1e35be40965080a4a0a86d5da85a08881e"
+                "reference": "0b5068338723e80de78344a77569ccb8465c4b86"
             },
             "require": {
                 "magento/framework": "^103.0",
                 "php": "^8.1",
                 "symfony/dotenv": "^5.4"
             },
-            "type": "qunity-package",
+            "type": "qunity-magento2-module",
             "autoload": {
                 "files": [
                     "src/registration.php"
@@ -14462,21 +14435,21 @@
                 "proprietary"
             ],
             "description": "N/A",
-            "time": "2024-02-23T18:16:52+00:00"
+            "time": "2024-02-24T15:57:22+00:00"
         },
         {
             "name": "qunity/module-online-product",
-            "version": "0.1.3",
+            "version": "0.1.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:qunity/module-online-product.git",
-                "reference": "4e87d435956b5ee1815faf24f5c2f671d400a678"
+                "reference": "293a243d27e31493a595733fd2a976064af3c1b3"
             },
             "require": {
                 "php": "^8.1",
                 "qunity/module-base": "^0.1"
             },
-            "type": "qunity-package",
+            "type": "qunity-magento2-module",
             "autoload": {
                 "files": [
                     "src/registration.php"
@@ -14489,7 +14462,7 @@
                 "proprietary"
             ],
             "description": "N/A",
-            "time": "2024-02-23T18:16:52+00:00"
+            "time": "2024-02-24T15:57:22+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -18381,16 +18354,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.300.3",
+            "version": "3.300.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "a1202d1a82593fc2cdad54d627e54c518a984738"
+                "reference": "27d59c22c121ce9c0041c563dc9d7270e180925c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a1202d1a82593fc2cdad54d627e54c518a984738",
-                "reference": "a1202d1a82593fc2cdad54d627e54c518a984738",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/27d59c22c121ce9c0041c563dc9d7270e180925c",
+                "reference": "27d59c22c121ce9c0041c563dc9d7270e180925c",
                 "shasum": ""
             },
             "require": {
@@ -18470,9 +18443,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.300.3"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.300.4"
             },
-            "time": "2024-02-22T19:20:21+00:00"
+            "time": "2024-02-23T19:10:30+00:00"
         },
         {
             "name": "beberlei/assert",
@@ -18606,16 +18579,16 @@
         },
         {
             "name": "codeception/codeception",
-            "version": "5.1.0",
+            "version": "5.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeception/Codeception.git",
-                "reference": "cb80cae36a97113b09065bb1d0225d0fc7746540"
+                "reference": "fcfa1d0ec2eb7439e5290fd3ea685b5d1f90075a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/cb80cae36a97113b09065bb1d0225d0fc7746540",
-                "reference": "cb80cae36a97113b09065bb1d0225d0fc7746540",
+                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/fcfa1d0ec2eb7439e5290fd3ea685b5d1f90075a",
+                "reference": "fcfa1d0ec2eb7439e5290fd3ea685b5d1f90075a",
                 "shasum": ""
             },
             "require": {
@@ -18710,7 +18683,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Codeception/Codeception/issues",
-                "source": "https://github.com/Codeception/Codeception/tree/5.1.0"
+                "source": "https://github.com/Codeception/Codeception/tree/5.1.1"
             },
             "funding": [
                 {
@@ -18718,7 +18691,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2024-02-04T13:50:11+00:00"
+            "time": "2024-02-23T21:42:47+00:00"
         },
         {
             "name": "codeception/lib-asserts",
@@ -19296,16 +19269,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.49.0",
+            "version": "v3.50.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "8742f7aa6f72a399688b65e4f58992c2d4681fc2"
+                "reference": "dbea11dcb6d9a1f6c8d51c0e580ab4a8876f524c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/8742f7aa6f72a399688b65e4f58992c2d4681fc2",
-                "reference": "8742f7aa6f72a399688b65e4f58992c2d4681fc2",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/dbea11dcb6d9a1f6c8d51c0e580ab4a8876f524c",
+                "reference": "dbea11dcb6d9a1f6c8d51c0e580ab4a8876f524c",
                 "shasum": ""
             },
             "require": {
@@ -19315,7 +19288,7 @@
                 "ext-json": "*",
                 "ext-tokenizer": "*",
                 "php": "^7.4 || ^8.0",
-                "sebastian/diff": "^4.0 || ^5.0",
+                "sebastian/diff": "^4.0 || ^5.0 || ^6.0",
                 "symfony/console": "^5.4 || ^6.0 || ^7.0",
                 "symfony/event-dispatcher": "^5.4 || ^6.0 || ^7.0",
                 "symfony/filesystem": "^5.4 || ^6.0 || ^7.0",
@@ -19336,7 +19309,8 @@
                 "php-cs-fixer/accessible-object": "^1.1",
                 "php-cs-fixer/phpunit-constraint-isidenticalstring": "^1.4",
                 "php-cs-fixer/phpunit-constraint-xmlmatchesxsd": "^1.4",
-                "phpunit/phpunit": "^9.6 || ^10.5.5",
+                "phpunit/phpunit": "^9.6 || ^10.5.5 || ^11.0.2",
+                "symfony/var-dumper": "^5.4 || ^6.0 || ^7.0",
                 "symfony/yaml": "^5.4 || ^6.0 || ^7.0"
             },
             "suggest": {
@@ -19375,7 +19349,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.49.0"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.50.0"
             },
             "funding": [
                 {
@@ -19383,7 +19357,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-02-02T00:41:40+00:00"
+            "time": "2024-02-23T23:17:45+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
@@ -20914,6 +20888,32 @@
                 "source": "https://github.com/bobthecow/psysh/tree/v0.12.0"
             },
             "time": "2023-12-20T15:28:09+00:00"
+        },
+        {
+            "name": "qunity/composer-installer",
+            "version": "0.1.19",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:qunity/composer-installer.git",
+                "reference": "021e1da7b655bfd78b4306ef88a8a84b84ab4cba"
+            },
+            "require": {
+                "composer-plugin-api": "^2.2"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Qunity\\ComposerInstaller\\InstallerPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Qunity\\ComposerInstaller\\": "src"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "N/A",
+            "time": "2024-02-25T07:01:48+00:00"
         },
         {
             "name": "rector/rector",
