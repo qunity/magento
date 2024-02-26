@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b95a7e253ca4e061596b75c557885d3e",
+    "content-hash": "10d4cc4ea826fd1cd59b63e2a3ea4431",
     "packages": [
         {
             "name": "brick/math",
@@ -13804,21 +13804,21 @@
         },
         {
             "name": "phpseclib/mcrypt_compat",
-            "version": "2.0.5",
+            "version": "2.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/mcrypt_compat.git",
-                "reference": "a994398d03c96cd1a180a0cd7cf6c94816e40c01"
+                "reference": "e5924504997b4f90772034cefd89dc2f4ec189dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/mcrypt_compat/zipball/a994398d03c96cd1a180a0cd7cf6c94816e40c01",
-                "reference": "a994398d03c96cd1a180a0cd7cf6c94816e40c01",
+                "url": "https://api.github.com/repos/phpseclib/mcrypt_compat/zipball/e5924504997b4f90772034cefd89dc2f4ec189dc",
+                "reference": "e5924504997b4f90772034cefd89dc2f4ec189dc",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6.1",
-                "phpseclib/phpseclib": ">=3.0.34 <4.0.0"
+                "phpseclib/phpseclib": ">=3.0.36 <4.0.0"
             },
             "provide": {
                 "ext-mcrypt": "5.6.40"
@@ -13868,20 +13868,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-02-23T01:01:37+00:00"
+            "time": "2024-02-26T14:52:18+00:00"
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "3.0.35",
+            "version": "3.0.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "4b1827beabce71953ca479485c0ae9c51287f2fe"
+                "reference": "c2fb5136162d4be18fdd4da9980696f3aee96d7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/4b1827beabce71953ca479485c0ae9c51287f2fe",
-                "reference": "4b1827beabce71953ca479485c0ae9c51287f2fe",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/c2fb5136162d4be18fdd4da9980696f3aee96d7b",
+                "reference": "c2fb5136162d4be18fdd4da9980696f3aee96d7b",
                 "shasum": ""
             },
             "require": {
@@ -13962,7 +13962,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.35"
+                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.36"
             },
             "funding": [
                 {
@@ -13978,7 +13978,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-12-29T01:59:53+00:00"
+            "time": "2024-02-26T05:13:14+00:00"
         },
         {
             "name": "psr/cache",
@@ -20891,11 +20891,11 @@
         },
         {
             "name": "qunity/composer-installer",
-            "version": "0.1.19",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:qunity/composer-installer.git",
-                "reference": "021e1da7b655bfd78b4306ef88a8a84b84ab4cba"
+                "reference": "6d8b702cc2d2bac454cab95331433a7e1188263c"
             },
             "require": {
                 "composer-plugin-api": "^2.2"
@@ -20913,7 +20913,7 @@
                 "proprietary"
             ],
             "description": "N/A",
-            "time": "2024-02-25T07:01:48+00:00"
+            "time": "2024-02-25T09:35:16+00:00"
         },
         {
             "name": "rector/rector",
@@ -22675,5 +22675,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.6.0"
 }
