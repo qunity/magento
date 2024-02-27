@@ -14437,16 +14437,15 @@
         },
         {
             "name": "qunity/module-base",
-            "version": "0.1.9",
+            "version": "0.1.10",
             "source": {
                 "type": "git",
                 "url": "git@github.com:qunity/module-base.git",
-                "reference": "0b5068338723e80de78344a77569ccb8465c4b86"
+                "reference": "f7ac42d4e0bd38cb1ae1de764d8bdb4ec43d1a98"
             },
             "require": {
                 "magento/framework": "^103.0",
-                "php": "^8.1",
-                "symfony/dotenv": "^5.4"
+                "php": "^8.1"
             },
             "type": "qunity-magento2-module",
             "autoload": {
@@ -14461,7 +14460,7 @@
                 "proprietary"
             ],
             "description": "N/A",
-            "time": "2024-02-24T15:57:22+00:00"
+            "time": "2024-02-27T19:27:41+00:00"
         },
         {
             "name": "qunity/module-online-product",
