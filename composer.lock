@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2216f9567953254f2bf6fa79ccdea149",
+    "content-hash": "724dda6378d21dad9b7fa67c72a143af",
     "packages": [
         {
             "name": "brick/math",
@@ -14490,6 +14490,34 @@
             "time": "2024-02-24T15:57:22+00:00"
         },
         {
+            "name": "qunity/module-vk",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:qunity/module-vk.git",
+                "reference": "87a7b0790a4e9c41158be74ab9e8b8e5ef9fcd59"
+            },
+            "require": {
+                "php": "^8.1",
+                "qunity/module-base": "^0.1",
+                "vkcom/vk-php-sdk": "^5.131"
+            },
+            "type": "qunity-magento2-module",
+            "autoload": {
+                "files": [
+                    "src/registration.php"
+                ],
+                "psr-4": {
+                    "Qunity\\Vk\\": "src"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "N/A",
+            "time": "2024-03-02T15:59:59+00:00"
+        },
+        {
             "name": "ralouphie/getallheaders",
             "version": "3.0.3",
             "source": {
@@ -17681,6 +17709,46 @@
                 "source": "https://github.com/tubalmartin/YUI-CSS-compressor-PHP-port"
             },
             "time": "2018-01-15T15:26:51+00:00"
+        },
+        {
+            "name": "vkcom/vk-php-sdk",
+            "version": "5.131.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/VKCOM/vk-php-sdk.git",
+                "reference": "0b01a07b167549d08a3d910201cec9e8a202a0ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/VKCOM/vk-php-sdk/zipball/0b01a07b167549d08a3d910201cec9e8a202a0ee",
+                "reference": "0b01a07b167549d08a3d910201cec9e8a202a0ee",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.5",
+                "php": "^8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "VK\\": "src/VK"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "VK PHP SDK",
+            "homepage": "https://github.com/VKCOM/vk-php-sdk",
+            "keywords": [
+                "sdk",
+                "vk"
+            ],
+            "support": {
+                "issues": "https://github.com/VKCOM/vk-php-sdk/issues",
+                "source": "https://github.com/VKCOM/vk-php-sdk/tree/5.131.0"
+            },
+            "time": "2023-07-03T10:53:32+00:00"
         },
         {
             "name": "web-token/jwt-framework",

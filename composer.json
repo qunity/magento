@@ -25,7 +25,8 @@
         "qunity/component-dotenv": "^0.1",
         "qunity/composer-installer": "^0.2",
         "qunity/module-base": "^0.1",
-        "qunity/module-online-product": "^0.1"
+        "qunity/module-online-product": "^0.1",
+        "qunity/module-vk": "^0.1"
     },
     "autoload": {
         "exclude-from-classmap": [
@@ -145,6 +146,10 @@
         "qunity/module-online-product": {
             "type": "git",
             "url": "git@github.com:qunity/module-online-product.git"
+        },
+        "qunity/module-vk": {
+            "type": "git",
+            "url": "git@github.com:qunity/module-vk.git"
         },
         "magento": {
             "type": "composer",
