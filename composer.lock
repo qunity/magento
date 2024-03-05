@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0008c04fc8c2e572ddd7afe393d9b39b",
+    "content-hash": "de6147387d0064873c8f285bc6d78b7b",
     "packages": [
         {
             "name": "brick/math",
@@ -14434,6 +14434,33 @@
             ],
             "description": "N/A",
             "time": "2024-02-27T16:29:28+00:00"
+        },
+        {
+            "name": "qunity/module-downloadable",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:qunity/module-downloadable.git",
+                "reference": "75072479594533cee565ff44d5d5efcff380b719"
+            },
+            "require": {
+                "magento/module-downloadable": "^100.4",
+                "php": "^8.1"
+            },
+            "type": "qunity-magento2-module",
+            "autoload": {
+                "files": [
+                    "src/registration.php"
+                ],
+                "psr-4": {
+                    "Qunity\\Downloadable\\": "src"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "N/A",
+            "time": "2024-03-05T05:49:38+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
