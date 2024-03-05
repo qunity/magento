@@ -98,7 +98,7 @@ return (static function (array $config): array {
         Dotenv::VARIABLE_VALUE => [
             fn (mixed $value): array => array_map(
                 'trim',
-                array_values(array_diff(explode("\n", $value), [''])),
+                array_values(array_diff(explode(';', $value), [''])),
             ),
         ],
     ]),
