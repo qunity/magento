@@ -23,9 +23,7 @@
         "magento/composer-root-update-plugin": "~2.0",
         "magento/product-community-edition": "2.4.6-p1",
         "qunity/component-dotenv": "^0.1",
-        "qunity/composer-installer": "^0.2",
-        "qunity/module-base": "^0.1",
-        "qunity/module-online-product": "^0.1"
+        "qunity/composer-installer": "^0.2"
     },
     "autoload": {
         "exclude-from-classmap": [
@@ -137,14 +135,6 @@
         "qunity/composer-installer": {
             "type": "git",
             "url": "git@github.com:qunity/composer-installer.git"
-        },
-        "qunity/module-base": {
-            "type": "git",
-            "url": "git@github.com:qunity/module-base.git"
-        },
-        "qunity/module-online-product": {
-            "type": "git",
-            "url": "git@github.com:qunity/module-online-product.git"
         },
         "magento": {
             "type": "composer",
