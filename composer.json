@@ -149,7 +149,7 @@
     "extra": {
         "magento-force": "override",
         "qunity-composer-installer": {
-            "package-custom-paths": [
+            "package-custom-path": [
                 {
                     "type": "qunity-magento2-module",
                     "path": "app/packages",
