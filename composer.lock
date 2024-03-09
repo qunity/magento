@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fb00ee89cbaf5166d0e954b528baa6c4",
+    "content-hash": "186974487960176e5e15323fd58630b3",
     "packages": [
         {
             "name": "brick/math",
@@ -5534,42 +5534,6 @@
             "description": "N/A"
         },
         {
-            "name": "magento/module-bundle-graph-ql",
-            "version": "100.4.6",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-bundle-graph-ql/magento-module-bundle-graph-ql-100.4.6.0.zip",
-                "shasum": "a9a87401151397b932fb58aa7b350ec14fc462a4"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-bundle": "101.0.*",
-                "magento/module-catalog": "104.0.*",
-                "magento/module-catalog-graph-ql": "100.4.*",
-                "magento/module-graph-ql": "100.4.*",
-                "magento/module-quote": "101.2.*",
-                "magento/module-quote-graph-ql": "100.4.*",
-                "magento/module-sales": "103.0.*",
-                "magento/module-sales-graph-ql": "100.4.*",
-                "magento/module-store": "101.1.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\BundleGraphQl\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
             "name": "magento/module-bundle-import-export",
             "version": "100.4.5",
             "dist": {
@@ -5782,111 +5746,6 @@
             "description": "N/A"
         },
         {
-            "name": "magento/module-catalog-cms-graph-ql",
-            "version": "100.4.2",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-catalog-cms-graph-ql/magento-module-catalog-cms-graph-ql-100.4.2.0.zip",
-                "shasum": "ecb5c283ac857e0a203c9492f846373ba11cce76"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-catalog": "104.0.*",
-                "magento/module-cms-graph-ql": "100.4.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "suggest": {
-                "magento/module-catalog-graph-ql": "100.4.*",
-                "magento/module-cms": "104.0.*",
-                "magento/module-graph-ql": "100.4.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\CatalogCmsGraphQl\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-catalog-customer-graph-ql",
-            "version": "100.4.5",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-catalog-customer-graph-ql/magento-module-catalog-customer-graph-ql-100.4.5.0.zip",
-                "shasum": "3faf598652973c96070b5ad687b64944221eb0c6"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-catalog": "104.0.*",
-                "magento/module-catalog-graph-ql": "100.4.*",
-                "magento/module-customer": "103.0.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\CatalogCustomerGraphQl\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-catalog-graph-ql",
-            "version": "100.4.6",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-catalog-graph-ql/magento-module-catalog-graph-ql-100.4.6.0.zip",
-                "shasum": "8bdd40c0cac9598a4d2bd0cafa9f91db44006efd"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-advanced-search": "100.4.*",
-                "magento/module-catalog": "104.0.*",
-                "magento/module-catalog-inventory": "100.4.*",
-                "magento/module-catalog-search": "102.0.*",
-                "magento/module-directory": "100.4.*",
-                "magento/module-eav": "102.1.*",
-                "magento/module-eav-graph-ql": "100.4.*",
-                "magento/module-graph-ql": "100.4.*",
-                "magento/module-search": "101.1.*",
-                "magento/module-store": "101.1.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "suggest": {
-                "magento/module-graph-ql-cache": "100.4.*",
-                "magento/module-store-graph-ql": "100.4.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\CatalogGraphQl\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
             "name": "magento/module-catalog-import-export",
             "version": "101.1.6-p1",
             "dist": {
@@ -5950,37 +5809,6 @@
                 ],
                 "psr-4": {
                     "Magento\\CatalogInventory\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-catalog-inventory-graph-ql",
-            "version": "100.4.3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-catalog-inventory-graph-ql/magento-module-catalog-inventory-graph-ql-100.4.3.0.zip",
-                "shasum": "f380c83d322bc0cb6f702b6ebcfcbd1e1727b88b"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-catalog": "104.0.*",
-                "magento/module-catalog-inventory": "100.4.*",
-                "magento/module-graph-ql": "100.4.*",
-                "magento/module-store": "101.1.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\CatalogInventoryGraphQl\\": ""
                 }
             },
             "license": [
@@ -6090,36 +5918,6 @@
             "description": "N/A"
         },
         {
-            "name": "magento/module-catalog-rule-graph-ql",
-            "version": "100.4.3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-catalog-rule-graph-ql/magento-module-catalog-rule-graph-ql-100.4.3.0.zip",
-                "shasum": "9296e35bbdfdb8aeface7053d921f63e002c5d91"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "suggest": {
-                "magento/module-catalog-rule": "101.2.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\CatalogRuleGraphQl\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
             "name": "magento/module-catalog-search",
             "version": "102.0.6",
             "dist": {
@@ -6190,42 +5988,6 @@
                 ],
                 "psr-4": {
                     "Magento\\CatalogUrlRewrite\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-catalog-url-rewrite-graph-ql",
-            "version": "100.4.4",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-catalog-url-rewrite-graph-ql/magento-module-catalog-url-rewrite-graph-ql-100.4.4.0.zip",
-                "shasum": "9c9abf94ed546fcc9713928a46800de89126cfae"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-catalog": "104.0.*",
-                "magento/module-catalog-graph-ql": "100.4.*",
-                "magento/module-store": "101.1.*",
-                "magento/module-url-rewrite-graph-ql": "100.4.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "suggest": {
-                "magento/module-catalog-graph-ql": "100.4.*",
-                "magento/module-catalog-url-rewrite": "100.4.*",
-                "magento/module-url-rewrite-graph-ql": "100.4.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\CatalogUrlRewriteGraphQl\\": ""
                 }
             },
             "license": [
@@ -6352,38 +6114,6 @@
             "description": "N/A"
         },
         {
-            "name": "magento/module-checkout-agreements-graph-ql",
-            "version": "100.4.2",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-checkout-agreements-graph-ql/magento-module-checkout-agreements-graph-ql-100.4.2.0.zip",
-                "shasum": "1891d29cc40e3ef72d428a42c54915fd2af43aac"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-checkout-agreements": "100.4.*",
-                "magento/module-store": "101.1.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "suggest": {
-                "magento/module-graph-ql": "100.4.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\CheckoutAgreementsGraphQl\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
             "name": "magento/module-cms",
             "version": "104.0.6",
             "dist": {
@@ -6414,41 +6144,6 @@
                 ],
                 "psr-4": {
                     "Magento\\Cms\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-cms-graph-ql",
-            "version": "100.4.3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-cms-graph-ql/magento-module-cms-graph-ql-100.4.3.0.zip",
-                "shasum": "c42642cdf6d74f875d7bd3af2c7562648e4cc109"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-cms": "104.0.*",
-                "magento/module-store": "101.1.*",
-                "magento/module-widget": "101.2.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "suggest": {
-                "magento/module-graph-ql": "100.4.*",
-                "magento/module-graph-ql-cache": "100.4.*",
-                "magento/module-store-graph-ql": "100.4.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\CmsGraphQl\\": ""
                 }
             },
             "license": [
@@ -6507,70 +6202,6 @@
                 ],
                 "psr-4": {
                     "Magento\\CmsUrlRewrite\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-cms-url-rewrite-graph-ql",
-            "version": "100.4.4",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-cms-url-rewrite-graph-ql/magento-module-cms-url-rewrite-graph-ql-100.4.4.0.zip",
-                "shasum": "bc41c036d8eee92347b87ec4e374a453ab455fe3"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-cms": "104.0.*",
-                "magento/module-cms-graph-ql": "100.4.*",
-                "magento/module-store": "101.1.*",
-                "magento/module-url-rewrite-graph-ql": "100.4.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "suggest": {
-                "magento/module-catalog-graph-ql": "100.4.*",
-                "magento/module-cms-url-rewrite": "100.4.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\CmsUrlRewriteGraphQl\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-compare-list-graph-ql",
-            "version": "100.4.2",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-compare-list-graph-ql/magento-module-compare-list-graph-ql-100.4.2.0.zip",
-                "shasum": "d817e506fc08239cd41509660673929e07f4804e"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-catalog": "104.0.*",
-                "magento/module-customer": "103.0.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\CompareListGraphQl\\": ""
                 }
             },
             "license": [
@@ -6685,40 +6316,6 @@
                 ],
                 "psr-4": {
                     "Magento\\ConfigurableProduct\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-configurable-product-graph-ql",
-            "version": "100.4.6",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-configurable-product-graph-ql/magento-module-configurable-product-graph-ql-100.4.6.0.zip",
-                "shasum": "5a562a32aa60d68878920b08b6c3faa3b0452c8d"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-catalog": "104.0.*",
-                "magento/module-catalog-graph-ql": "100.4.*",
-                "magento/module-catalog-inventory": "100.4.*",
-                "magento/module-configurable-product": "100.4.*",
-                "magento/module-graph-ql": "100.4.*",
-                "magento/module-quote": "101.2.*",
-                "magento/module-quote-graph-ql": "100.4.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\ConfigurableProductGraphQl\\": ""
                 }
             },
             "license": [
@@ -6991,75 +6588,6 @@
             "description": "N/A"
         },
         {
-            "name": "magento/module-customer-downloadable-graph-ql",
-            "version": "100.4.2",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-customer-downloadable-graph-ql/magento-module-customer-downloadable-graph-ql-100.4.2.0.zip",
-                "shasum": "73a96d167c521b4f3bc3b12db2bab6640af83a85"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-downloadable-graph-ql": "100.4.*",
-                "magento/module-graph-ql": "100.4.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "suggest": {
-                "magento/module-catalog-graph-ql": "100.4.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\CustomerDownloadableGraphQl\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-customer-graph-ql",
-            "version": "100.4.6",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-customer-graph-ql/magento-module-customer-graph-ql-100.4.6.0.zip",
-                "shasum": "cece93a389bc28304f4d0c9a3c4e3cb8b52fffaf"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-authorization": "100.4.*",
-                "magento/module-customer": "103.0.*",
-                "magento/module-directory": "100.4.*",
-                "magento/module-eav": "102.1.*",
-                "magento/module-graph-ql": "100.4.*",
-                "magento/module-graph-ql-cache": "100.4.*",
-                "magento/module-integration": "100.4.*",
-                "magento/module-newsletter": "100.4.*",
-                "magento/module-store": "101.1.*",
-                "magento/module-tax": "100.4.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\CustomerGraphQl\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
             "name": "magento/module-customer-import-export",
             "version": "100.4.6",
             "dist": {
@@ -7185,36 +6713,6 @@
             "description": "N/A"
         },
         {
-            "name": "magento/module-directory-graph-ql",
-            "version": "100.4.4",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-directory-graph-ql/magento-module-directory-graph-ql-100.4.4.0.zip",
-                "shasum": "e933675fd955e27f82fb3d86cbb877c9caf356d6"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-directory": "100.4.*",
-                "magento/module-graph-ql": "100.4.*",
-                "magento/module-store": "101.1.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\DirectoryGraphQl\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
             "name": "magento/module-downloadable",
             "version": "100.4.6",
             "dist": {
@@ -7252,43 +6750,6 @@
                 ],
                 "psr-4": {
                     "Magento\\Downloadable\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-downloadable-graph-ql",
-            "version": "100.4.6",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-downloadable-graph-ql/magento-module-downloadable-graph-ql-100.4.6.0.zip",
-                "shasum": "16d815d2bc828d09058d3fde435fd48a63acd615"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-catalog": "104.0.*",
-                "magento/module-downloadable": "100.4.*",
-                "magento/module-quote": "101.2.*",
-                "magento/module-quote-graph-ql": "100.4.*",
-                "magento/module-sales": "103.0.*",
-                "magento/module-store": "101.1.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "suggest": {
-                "magento/module-catalog-graph-ql": "100.4.*",
-                "magento/module-sales-graph-ql": "100.4.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\DownloadableGraphQl\\": ""
                 }
             },
             "license": [
@@ -7354,37 +6815,6 @@
                 ],
                 "psr-4": {
                     "Magento\\Eav\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-eav-graph-ql",
-            "version": "100.4.3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-eav-graph-ql/magento-module-eav-graph-ql-100.4.3.0.zip",
-                "shasum": "7ed4efaac5fb417ec764cbc44f1c6db6e6043577"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-eav": "102.1.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "suggest": {
-                "magento/module-graph-ql": "100.4.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\EavGraphQl\\": ""
                 }
             },
             "license": [
@@ -7540,37 +6970,6 @@
             "description": "N/A"
         },
         {
-            "name": "magento/module-gift-message-graph-ql",
-            "version": "100.4.4",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-gift-message-graph-ql/magento-module-gift-message-graph-ql-100.4.4.0.zip",
-                "shasum": "34ccdf0ec8bfb4c2645d4560e4c00f550f974b01"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-gift-message": "100.4.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "suggest": {
-                "magento/module-graph-ql": "100.4.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\GiftMessageGraphQl\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
             "name": "magento/module-google-adwords",
             "version": "100.4.3",
             "dist": {
@@ -7700,72 +7099,6 @@
             "description": "N/A"
         },
         {
-            "name": "magento/module-graph-ql",
-            "version": "100.4.6",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-graph-ql/magento-module-graph-ql-100.4.6.0.zip",
-                "shasum": "f9c872f4d4de99ab13be6d23ee9edd6d8c84f810"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-authorization": "100.4.*",
-                "magento/module-eav": "102.1.*",
-                "magento/module-new-relic-reporting": "100.4.*",
-                "magento/module-webapi": "100.4.*",
-                "php": "~8.1.0||~8.2.0",
-                "webonyx/graphql-php": "^15.0"
-            },
-            "suggest": {
-                "magento/module-graph-ql-cache": "100.4.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\GraphQl\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-graph-ql-cache",
-            "version": "100.4.3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-graph-ql-cache/magento-module-graph-ql-cache-100.4.3.0.zip",
-                "shasum": "d9772dbba47dcfbea28c3d929456fc2afc2009f2"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-authorization": "100.4.*",
-                "magento/module-graph-ql": "100.4.*",
-                "magento/module-integration": "100.4.*",
-                "magento/module-page-cache": "100.4.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\GraphQlCache\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
             "name": "magento/module-grouped-catalog-inventory",
             "version": "100.4.3",
             "dist": {
@@ -7862,36 +7195,6 @@
                 ],
                 "psr-4": {
                     "Magento\\GroupedProduct\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-grouped-product-graph-ql",
-            "version": "100.4.6",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-grouped-product-graph-ql/magento-module-grouped-product-graph-ql-100.4.6.0.zip",
-                "shasum": "1a369f07479df969aa94bed4153c9978ee92ea54"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-catalog": "104.0.*",
-                "magento/module-catalog-graph-ql": "100.4.*",
-                "magento/module-grouped-product": "100.4.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\GroupedProductGraphQl\\": ""
                 }
             },
             "license": [
@@ -9106,39 +8409,6 @@
             "description": "N/A"
         },
         {
-            "name": "magento/module-newsletter-graph-ql",
-            "version": "100.4.3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-newsletter-graph-ql/magento-module-newsletter-graph-ql-100.4.3.0.zip",
-                "shasum": "f0bc1c469f0878b1cd91541871a5c9f77fed5e64"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-customer": "103.0.*",
-                "magento/module-newsletter": "100.4.*",
-                "magento/module-store": "101.1.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "suggest": {
-                "magento/module-graph-ql": "100.4.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\NewsletterGraphQl\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "Provides GraphQl functionality for the newsletter subscriptions."
-        },
-        {
             "name": "magento/module-offline-payments",
             "version": "100.4.4",
             "dist": {
@@ -9353,38 +8623,6 @@
                 ],
                 "psr-4": {
                     "Magento\\Payment\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-payment-graph-ql",
-            "version": "100.4.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-payment-graph-ql/magento-module-payment-graph-ql-100.4.1.0.zip",
-                "shasum": "d3625084ecbf7d25f065b4d1d40779de54fe8977"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-graph-ql": "100.4.*",
-                "magento/module-payment": "100.4.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "suggest": {
-                "magento/module-store-graph-ql": "100.4.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\PaymentGraphQl\\": ""
                 }
             },
             "license": [
@@ -9658,49 +8896,6 @@
                 "AFL-3.0"
             ],
             "description": "Magento module provides data provider for creating buy request for links of downloadable products"
-        },
-        {
-            "name": "magento/module-quote-graph-ql",
-            "version": "100.4.6-p1",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-quote-graph-ql/magento-module-quote-graph-ql-100.4.6.0-patch1.zip",
-                "shasum": "57b0fe642d0051fb2ed53a4e5cc759dd9d1a8f62"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-catalog": "104.0.*",
-                "magento/module-catalog-inventory": "100.4.*",
-                "magento/module-checkout": "100.4.*",
-                "magento/module-customer": "103.0.*",
-                "magento/module-customer-graph-ql": "100.4.*",
-                "magento/module-directory": "100.4.*",
-                "magento/module-gift-message": "100.4.*",
-                "magento/module-graph-ql": "100.4.*",
-                "magento/module-quote": "101.2.*",
-                "magento/module-sales": "103.0.*",
-                "magento/module-store": "101.1.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "suggest": {
-                "magento/module-catalog-inventory-graph-ql": "100.4.*",
-                "magento/module-graph-ql-cache": "100.4.*",
-                "magento/module-payment-graph-ql": "100.4.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\QuoteGraphQl\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
         },
         {
             "name": "magento/module-re-captcha-admin-ui",
@@ -10241,35 +9436,6 @@
             "description": "Google reCAPTCHA integration for Magento2"
         },
         {
-            "name": "magento/module-re-captcha-webapi-graph-ql",
-            "version": "1.0.2",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-re-captcha-webapi-graph-ql/magento-module-re-captcha-webapi-graph-ql-1.0.2.0.zip",
-                "shasum": "3694dde3610e6306cd8d2facfb4332879666b1d8"
-            },
-            "require": {
-                "magento/framework": "*",
-                "magento/module-authorization": "*",
-                "magento/module-re-captcha-validation-api": "1.1.*",
-                "magento/module-re-captcha-webapi-api": "1.0.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\ReCaptchaWebapiGraphQl\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Google reCAPTCHA integration for Magento2"
-        },
-        {
             "name": "magento/module-re-captcha-webapi-rest",
             "version": "1.0.2",
             "dist": {
@@ -10325,38 +9491,6 @@
                 "OSL-3.0"
             ],
             "description": "Google reCAPTCHA integration for Magento2"
-        },
-        {
-            "name": "magento/module-related-product-graph-ql",
-            "version": "100.4.3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-related-product-graph-ql/magento-module-related-product-graph-ql-100.4.3.0.zip",
-                "shasum": "fdd6cb197b329e15e85ad8b82a93d7b035a51080"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-catalog": "104.0.*",
-                "magento/module-catalog-graph-ql": "100.4.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "suggest": {
-                "magento/module-graph-ql": "100.4.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\RelatedProductGraphQl\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
         },
         {
             "name": "magento/module-release-notification",
@@ -10574,40 +9708,6 @@
             "description": "N/A"
         },
         {
-            "name": "magento/module-review-graph-ql",
-            "version": "100.4.2",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-review-graph-ql/magento-module-review-graph-ql-100.4.2.0.zip",
-                "shasum": "38a1a3e6d42d3612e241ad0587d81e5e1efed51e"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-catalog": "104.0.*",
-                "magento/module-review": "100.4.*",
-                "magento/module-store": "101.1.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "suggest": {
-                "magento/module-graph-ql": "100.4.*",
-                "magento/module-graph-ql-cache": "100.4.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\ReviewGraphQl\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
             "name": "magento/module-robots",
             "version": "101.1.2",
             "dist": {
@@ -10775,40 +9875,6 @@
                 ],
                 "psr-4": {
                     "Magento\\SalesAnalytics\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-sales-graph-ql",
-            "version": "100.4.6",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-sales-graph-ql/magento-module-sales-graph-ql-100.4.6.0.zip",
-                "shasum": "8d7211071eee00a88ac50d7990d3449f8b8bdefb"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-catalog": "104.0.*",
-                "magento/module-graph-ql": "100.4.*",
-                "magento/module-quote": "101.2.*",
-                "magento/module-sales": "103.0.*",
-                "magento/module-shipping": "100.4.*",
-                "magento/module-store": "101.1.*",
-                "magento/module-tax": "100.4.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\SalesGraphQl\\": ""
                 }
             },
             "license": [
@@ -11151,36 +10217,6 @@
             "description": "N/A"
         },
         {
-            "name": "magento/module-store-graph-ql",
-            "version": "100.4.4",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-store-graph-ql/magento-module-store-graph-ql-100.4.4.0.zip",
-                "shasum": "8f5e61a9d8a23d6e6d855403241de68aeeccc294"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-graph-ql": "100.4.*",
-                "magento/module-graph-ql-cache": "100.4.*",
-                "magento/module-store": "101.1.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\StoreGraphQl\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
             "name": "magento/module-swatches",
             "version": "100.4.6-p1",
             "dist": {
@@ -11220,39 +10256,6 @@
                 "AFL-3.0"
             ],
             "description": "Add Swatches to Products"
-        },
-        {
-            "name": "magento/module-swatches-graph-ql",
-            "version": "100.4.4",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-swatches-graph-ql/magento-module-swatches-graph-ql-100.4.4.0.zip",
-                "shasum": "334c1997b61526f281b8e42ec9ecfc64b098e7d3"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-catalog": "104.0.*",
-                "magento/module-catalog-graph-ql": "100.4.*",
-                "magento/module-swatches": "100.4.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "suggest": {
-                "magento/module-configurable-product-graph-ql": "100.4.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\SwatchesGraphQl\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
         },
         {
             "name": "magento/module-swatches-layered-navigation",
@@ -11327,37 +10330,6 @@
             "description": "N/A"
         },
         {
-            "name": "magento/module-tax-graph-ql",
-            "version": "100.4.2",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-tax-graph-ql/magento-module-tax-graph-ql-100.4.2.0.zip",
-                "shasum": "f8a412c0a89a9e524632411d3635d6aa5f82cc4f"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "suggest": {
-                "magento/module-catalog-graph-ql": "100.4.*",
-                "magento/module-tax": "100.4.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\TaxGraphQl\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
             "name": "magento/module-tax-import-export",
             "version": "100.4.5",
             "dist": {
@@ -11423,36 +10395,6 @@
                 ],
                 "psr-4": {
                     "Magento\\Theme\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-theme-graph-ql",
-            "version": "100.4.3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-theme-graph-ql/magento-module-theme-graph-ql-100.4.3.0.zip",
-                "shasum": "1d4cd1d28fce714b083f722b9e65ba748df8ce19"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "suggest": {
-                "magento/module-store-graph-ql": "100.4.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\ThemeGraphQl\\": ""
                 }
             },
             "license": [
@@ -11566,37 +10508,6 @@
             "description": "N/A"
         },
         {
-            "name": "magento/module-url-rewrite-graph-ql",
-            "version": "100.4.5",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-url-rewrite-graph-ql/magento-module-url-rewrite-graph-ql-100.4.5.0.zip",
-                "shasum": "8dee22ac0c6caa5da2a21eeb7750e5c223a51473"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-url-rewrite": "102.0.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "suggest": {
-                "magento/module-graph-ql": "100.4.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\UrlRewriteGraphQl\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
             "name": "magento/module-user",
             "version": "101.2.6",
             "dist": {
@@ -11693,35 +10604,6 @@
                 "OSL-3.0",
                 "AFL-3.0"
             ]
-        },
-        {
-            "name": "magento/module-vault-graph-ql",
-            "version": "100.4.2",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-vault-graph-ql/magento-module-vault-graph-ql-100.4.2.0.zip",
-                "shasum": "56fbb26e1d6e78dc53ca1b6b18ae1178124eb816"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-graph-ql": "100.4.*",
-                "magento/module-vault": "101.2.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\VaultGraphQl\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
         },
         {
             "name": "magento/module-version",
@@ -11890,39 +10772,6 @@
             "description": "N/A"
         },
         {
-            "name": "magento/module-weee-graph-ql",
-            "version": "100.4.3",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-weee-graph-ql/magento-module-weee-graph-ql-100.4.3.0.zip",
-                "shasum": "38b099c99d67cf18a20006511e166eca193ccd32"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-store": "101.1.*",
-                "magento/module-tax": "100.4.*",
-                "magento/module-weee": "100.4.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "suggest": {
-                "magento/module-catalog-graph-ql": "100.4.*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\WeeeGraphQl\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
             "name": "magento/module-widget",
             "version": "101.2.6",
             "dist": {
@@ -12027,39 +10876,6 @@
                 ],
                 "psr-4": {
                     "Magento\\WishlistAnalytics\\": ""
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
-            "name": "magento/module-wishlist-graph-ql",
-            "version": "100.4.6",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-wishlist-graph-ql/magento-module-wishlist-graph-ql-100.4.6.0.zip",
-                "shasum": "cbb662541c5d0d637af6e8a75b5cccdfa7cece33"
-            },
-            "require": {
-                "magento/framework": "103.0.*",
-                "magento/module-catalog": "104.0.*",
-                "magento/module-catalog-graph-ql": "100.4.*",
-                "magento/module-quote": "101.2.*",
-                "magento/module-quote-graph-ql": "100.4.*",
-                "magento/module-store": "101.1.*",
-                "magento/module-wishlist": "101.2.*",
-                "php": "~8.1.0||~8.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Magento\\WishlistGraphQl\\": ""
                 }
             },
             "license": [
@@ -18357,16 +17173,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.300.13",
+            "version": "3.300.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "b1eb7307d30ebcfa4e156971f658c2d177434db3"
+                "reference": "f1e0c37d8403d7097c2c808c184137e6517d54be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/b1eb7307d30ebcfa4e156971f658c2d177434db3",
-                "reference": "b1eb7307d30ebcfa4e156971f658c2d177434db3",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/f1e0c37d8403d7097c2c808c184137e6517d54be",
+                "reference": "f1e0c37d8403d7097c2c808c184137e6517d54be",
                 "shasum": ""
             },
             "require": {
@@ -18446,9 +17262,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.300.13"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.300.14"
             },
-            "time": "2024-03-07T19:14:04+00:00"
+            "time": "2024-03-08T19:05:39+00:00"
         },
         {
             "name": "beberlei/assert",
