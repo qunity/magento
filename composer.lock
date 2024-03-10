@@ -13258,11 +13258,11 @@
         },
         {
             "name": "qunity/module-downloadable",
-            "version": "0.1.2",
+            "version": "0.1.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:qunity/module-downloadable.git",
-                "reference": "f8ade0e802b375c1d34fd7ed411119c3861cc9a8"
+                "reference": "c45d3e53c6e0e19dd8c32b6ee302ccdb4eaba763"
             },
             "require": {
                 "magento/module-downloadable": "^100.4",
@@ -13281,7 +13281,7 @@
                 "proprietary"
             ],
             "description": "N/A",
-            "time": "2024-03-10T00:54:59+00:00"
+            "time": "2024-03-10T17:16:23+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -21475,5 +21475,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.2.0"
 }
