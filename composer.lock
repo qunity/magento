@@ -13262,7 +13262,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:qunity/module-downloadable.git",
-                "reference": "bd037aad8aa14a54476e9c07f6d5b52117b34802"
+                "reference": "b6969771fb9cc8c859e09e2a02fdbe09d0709eb2"
             },
             "require": {
                 "magento/module-downloadable": "^100.4",
@@ -21475,5 +21475,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.6.0"
 }
