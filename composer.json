@@ -24,7 +24,8 @@
         "magento/product-community-edition": "2.4.6-p1",
         "qunity/component-dotenv": "^0.1",
         "qunity/composer-installer": "^0.2",
-        "qunity/module-downloadable": "^0.1"
+        "qunity/module-downloadable": "^0.1",
+        "qunity/module-video": "^0.1"
     },
     "autoload": {
         "exclude-from-classmap": [
@@ -176,6 +177,10 @@
         "qunity/module-downloadable": {
             "type": "git",
             "url": "git@github.com:qunity/module-downloadable.git"
+        },
+        "qunity/module-video": {
+            "type": "git",
+            "url": "git@github.com:qunity/module-video.git"
         },
         "magento": {
             "type": "composer",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "186974487960176e5e15323fd58630b3",
+    "content-hash": "0d0298e3bc22eb73bc883aaf03b8d0e3",
     "packages": [
         {
             "name": "brick/math",
@@ -13282,6 +13282,33 @@
             ],
             "description": "N/A",
             "time": "2024-03-10T17:16:23+00:00"
+        },
+        {
+            "name": "qunity/module-video",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:qunity/module-video.git",
+                "reference": "d4088aaf3d85a1250205ae5efbfb6807f71bdb3c"
+            },
+            "require": {
+                "magento/framework": "^103.0",
+                "php": "^8.1"
+            },
+            "type": "qunity-magento2-module",
+            "autoload": {
+                "files": [
+                    "src/registration.php"
+                ],
+                "psr-4": {
+                    "Qunity\\Video\\": "src"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "N/A",
+            "time": "2024-04-13T23:55:41+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
