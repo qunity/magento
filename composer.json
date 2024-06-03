@@ -24,6 +24,7 @@
         "magento/product-community-edition": "2.4.6-p1",
         "qunity/component-dotenv": "^0.1",
         "qunity/composer-installer": "^0.2",
+        "qunity/module-base": "^0.1",
         "qunity/module-downloadable": "^0.1",
         "qunity/module-video": "^0.1"
     },
@@ -173,6 +174,10 @@
         "qunity/composer-installer": {
             "type": "git",
             "url": "git@github.com:qunity/composer-installer.git"
+        },
+        "qunity/module-base": {
+            "type": "git",
+            "url": "git@github.com:qunity/module-base.git"
         },
         "qunity/module-downloadable": {
             "type": "git",
