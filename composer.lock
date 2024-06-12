@@ -13262,11 +13262,11 @@
         },
         {
             "name": "qunity/module-base",
-            "version": "0.1.11",
+            "version": "0.1.14",
             "source": {
                 "type": "git",
                 "url": "git@github.com:qunity/module-base.git",
-                "reference": "d34db194038715bddd1c8cee6c61d6969a310b78"
+                "reference": "62eaaff422b054126bc279bbc10ff2f2619778c9"
             },
             "require": {
                 "magento/framework": "^103.0",
@@ -13285,15 +13285,15 @@
                 "proprietary"
             ],
             "description": "N/A",
-            "time": "2024-05-25T19:09:46+00:00"
+            "time": "2024-06-12T13:54:06+00:00"
         },
         {
             "name": "qunity/module-downloadable",
-            "version": "0.1.8",
+            "version": "0.1.9",
             "source": {
                 "type": "git",
                 "url": "git@github.com:qunity/module-downloadable.git",
-                "reference": "0a770ff716198ca5e7d4455a18f4a7da0ebedd62"
+                "reference": "ceb7fa21d247b5b2b42f966ae4211ada2d604445"
             },
             "require": {
                 "magento/module-downloadable": "^100.4",
@@ -13313,15 +13313,15 @@
                 "proprietary"
             ],
             "description": "N/A",
-            "time": "2024-06-03T18:01:00+00:00"
+            "time": "2024-06-12T18:22:55+00:00"
         },
         {
             "name": "qunity/module-video",
-            "version": "0.1.4",
+            "version": "0.1.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:qunity/module-video.git",
-                "reference": "5fd74c9f32752f1e3458a9397a23d326e8441db3"
+                "reference": "da779bdde1fd3ed2806d0cb12675e024575d9096"
             },
             "require": {
                 "magento/framework": "^103.0",
@@ -13341,7 +13341,7 @@
                 "proprietary"
             ],
             "description": "N/A",
-            "time": "2024-06-03T17:47:33+00:00"
+            "time": "2024-06-12T14:14:29+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -19394,16 +19394,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.11.3",
+            "version": "1.11.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "e64220a05c1209fc856d58e789c3b7a32c0bb9a5"
+                "reference": "9100a76ce8015b9aa7125b9171ae3a76887b6c82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e64220a05c1209fc856d58e789c3b7a32c0bb9a5",
-                "reference": "e64220a05c1209fc856d58e789c3b7a32c0bb9a5",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/9100a76ce8015b9aa7125b9171ae3a76887b6c82",
+                "reference": "9100a76ce8015b9aa7125b9171ae3a76887b6c82",
                 "shasum": ""
             },
             "require": {
@@ -19448,7 +19448,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-05-31T13:53:37+00:00"
+            "time": "2024-06-06T12:19:22+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
