@@ -13289,11 +13289,11 @@
         },
         {
             "name": "qunity/module-downloadable",
-            "version": "0.1.11",
+            "version": "0.1.12",
             "source": {
                 "type": "git",
                 "url": "git@github.com:qunity/module-downloadable.git",
-                "reference": "97d87a6b18d155446b0dcbdb408e42ed60802739"
+                "reference": "9091df5f9c9da06dbdbdc7c6ccd179f1124527d1"
             },
             "require": {
                 "magento/module-downloadable": "^100.4",
@@ -13313,7 +13313,7 @@
                 "proprietary"
             ],
             "description": "N/A",
-            "time": "2024-07-06T17:10:00+00:00"
+            "time": "2024-07-06T17:52:58+00:00"
         },
         {
             "name": "qunity/module-video",
