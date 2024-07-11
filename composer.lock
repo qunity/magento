@@ -13262,11 +13262,11 @@
         },
         {
             "name": "qunity/module-base",
-            "version": "0.1.17",
+            "version": "0.1.20",
             "source": {
                 "type": "git",
                 "url": "git@github.com:qunity/module-base.git",
-                "reference": "96e826183a9a5bdba05f460ab46eab67ee90325f"
+                "reference": "aa5b7f9bcf72582b42eb61225c5fb2d1c511de4b"
             },
             "require": {
                 "magento/framework": "^103.0",
@@ -13285,15 +13285,15 @@
                 "proprietary"
             ],
             "description": "N/A",
-            "time": "2024-07-07T07:46:53+00:00"
+            "time": "2024-07-11T14:32:32+00:00"
         },
         {
             "name": "qunity/module-downloadable",
-            "version": "0.1.12",
+            "version": "0.1.13",
             "source": {
                 "type": "git",
                 "url": "git@github.com:qunity/module-downloadable.git",
-                "reference": "9091df5f9c9da06dbdbdc7c6ccd179f1124527d1"
+                "reference": "12a6eaa8c45304b4fdb2b25b6bad3d31170e8535"
             },
             "require": {
                 "magento/module-downloadable": "^100.4",
@@ -13313,7 +13313,7 @@
                 "proprietary"
             ],
             "description": "N/A",
-            "time": "2024-07-06T17:52:58+00:00"
+            "time": "2024-07-11T14:06:24+00:00"
         },
         {
             "name": "qunity/module-video",
