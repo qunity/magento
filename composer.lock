@@ -13262,11 +13262,11 @@
         },
         {
             "name": "qunity/module-base",
-            "version": "0.1.20",
+            "version": "0.1.21",
             "source": {
                 "type": "git",
                 "url": "git@github.com:qunity/module-base.git",
-                "reference": "aa5b7f9bcf72582b42eb61225c5fb2d1c511de4b"
+                "reference": "73222907c9bd5022d9cefc73f26007b72cf9d1f3"
             },
             "require": {
                 "magento/framework": "^103.0",
@@ -13285,7 +13285,7 @@
                 "proprietary"
             ],
             "description": "N/A",
-            "time": "2024-07-11T14:32:32+00:00"
+            "time": "2024-07-11T16:33:02+00:00"
         },
         {
             "name": "qunity/module-downloadable",
